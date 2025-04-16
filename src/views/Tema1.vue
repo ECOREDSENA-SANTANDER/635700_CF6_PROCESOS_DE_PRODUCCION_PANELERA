@@ -486,7 +486,6 @@
 <script>
 export default {
   name: 'Tema1',
-  components: {},
   data: () => ({
     // variables de vue
   }),
