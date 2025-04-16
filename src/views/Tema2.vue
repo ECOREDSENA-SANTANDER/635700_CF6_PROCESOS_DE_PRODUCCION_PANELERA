@@ -8,10 +8,10 @@
       h1 Procedimientos de ajuste
 
     .row.justify-content-around.align-items-center
-      .col-md-2
+      .col-lg-2.col-6.mb-4.col-md-4
         figure
           img(src='@/assets/curso/temas/T2/img-1.svg', alt='Texto que describa la imagen')
-      .col-md-10.mb-4.mb-md-0
+      .col-lg-10.mb-4.mb-md-0
         p.mb-5 Durante la cristalización, el orden del sistema aumenta, partiendo de un sistema relativamente desordenado (solución) a un sistema más ordenado (cristal). La mayoría de las transiciones de esta fase, que se encuentran en la práctica, ocurren a presión constante, por lo que la energía de <i>Gibbs</i> se usa para describir un sistema en el que los períodos están en equilibrio. Por lo tanto, para que ocurra una transición de fase en un sistema, este efecto debe estar asociado con una disminución en la energía de <i>Gibbs</i> total del sistema, es decir ΔG<0 a presión y temperatura constantes. Por lo tanto, cuanto mayor sea la energía de<i> Gibbs</i>, mayor será la fuerza promotora de la cristalización, (Grases et al., 2000).
 
       
@@ -20,7 +20,7 @@
 
     .tarjeta.tarjeta--slyder.p-4.mb-5
       LineaTiempoC.color-acento-botones(text-small)
-        .row.justify-content-around.align-items-center(titulo="paso 1")
+        .row.justify-content-around.align-items-center(titulo="Paso 1")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 En muchos sistemas, las transiciones de fase no ocurren cuando esto es termodinámicamente posible (cuando el sistema está sobresaturado), sino en condiciones que a menudo exceden el equilibrio. La estabilidad del sistema en condiciones alejadas del equilibrio se debe a que el inicio de las transiciones de fase depende de la formación de nuevas fases en el sistema, la llamada nucleación, (Grases et al., 2000).
         
@@ -28,7 +28,7 @@
             figure
               img(src='@/assets/curso/temas/T2/img-2.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center(titulo="paso 2")
+        .row.justify-content-around.align-items-center(titulo="Paso 2")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 El proceso de cristalización de la miel, se ve afectado por varios factores, entre ellos: sobresaturación, temperatura de almacenamiento, presencia de partículas.
         
@@ -36,7 +36,7 @@
             figure
               img(src='@/assets/curso/temas/T2/img-3.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center(titulo="paso 3")
+        .row.justify-content-around.align-items-center(titulo="Paso 3")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 <b>Sobresaturación:</b> la reacción tiene una velocidad limitada en la superficie y todo el proceso consta de dos fases sucesivas, una fase de difusión y una fase interfacial, y ninguna de estas ocurre si la solución no está sobresaturada. Ambos procesos ayudan a determinar la tasa de crecimiento de los cristales, pero mientras que la resistencia al transporte molecular domina a la sobresaturación “normal” y a altas temperaturas (superiores a 50 oC), la resistencia de los enlaces moleculares, juega un papel importante a baja temperatura y sobresaturación. (García, 2001)
 
@@ -45,7 +45,7 @@
             figure
               img(src='@/assets/curso/temas/T2/img-4.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center(titulo="paso 4")
+        .row.justify-content-around.align-items-center(titulo="Paso 4")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 <b>Temperatura de almacenamiento:</b> es bien sabido que la velocidad de cristalización, la forma y el tamaño de las partículas, dependen de la constitución de la miel y la temperatura de almacenamiento. Se observaron dos tendencias distintas: a medida que disminuye la temperatura, disminuye la solubilidad del azúcar, favoreciendo la granulación o cristalización; por el contrario, a bajas temperaturas, la viscosidad aumenta y la movilidad molecular se retrasa o se reduce, lo que da como resultado, velocidades de cristalización reducidas. (Lupano, 1997)
         
@@ -53,7 +53,7 @@
             figure
               img(src='@/assets/curso/temas/T2/img-5.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center(titulo="paso 5")
+        .row.justify-content-around.align-items-center(titulo="Paso 5")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 <b>Presencia de partículas:</b> la presencia de impurezas crea defectos superficiales que favorecen el crecimiento de planos cristalinos (García, 2001).
 
@@ -83,11 +83,11 @@
 
 
 
-    .row.mb-3
-      .col-md-4
+    .row.justify-content-center.mb-3
+      .col-lg-4.col-8.mb-4.col-md-5
         figure
           img(src='@/assets/curso/temas/T2/img-8.png', alt='Texto que describa la imagen')
-      .col-md-8.mb-4.mb-md-0
+      .col-lg-8.mb-4.mb-md-0
         p.mb-5 <b>Artículo 7°.</b> Requisitos para la producción de panela a partir de mieles vírgenes en las centrales de acopio y procesamiento. Para la elaboración de panela sólo se podrá utilizar como materia prima las mieles vírgenes procedentes de trapiches paneleros autorizados, siempre y cuando cumplan con los siguientes requisitos:
         ol.lista-ol--cuadro.lista-ol--separador
           li 
@@ -125,10 +125,10 @@
 
     
     .row.justify-content-around.align-items-center.mb-5
-      .col-md-2
+      .col-lg-2.col-8.mb-4.col-md-4
         figure
           img(src='@/assets/curso/temas/T2/img-9.svg', alt='Texto que describa la imagen')
-      .col-md-10.mb-4.mb-md-0
+      .col-lg-10.mb-4.mb-md-0
         p.mb-5 Todo procesamiento, empaque, almacenamiento, distribución, mercadeo y venta de panelas debe estar sujeto a controles de calidad y seguridad apropiados. Los programas de control de calidad y seguridad deben prevenir errores evitables y reducir los errores naturales o inevitables a un nivel que no represente un riesgo para la salud.
 
 
@@ -144,7 +144,7 @@
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.config-slyder-F.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-8.col-md-5
             img(src='@/assets/curso/temas/T2/img-10.svg' alt='AvatarTop')
         h2.text-center Sistema de Control
         p.text-center Un ingenio azucarero debe contar con un sistema preventivo de aseguramiento y control de calidad que abarque todas las etapas desde la compra de materias primas hasta la distribución de los productos terminados; incluye:
@@ -158,35 +158,35 @@
 
       .tarjeta.config-slyder-F.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-8.col-md-5
             img(src='@/assets/curso/temas/T2/img-10.svg' alt='AvatarTop')
         h2.text-center Requisitos de exportación de la panela, registro y vigilancia sanitarios
         p.text-center Las panelas destinadas a la exportación deben cumplir con las buenas prácticas de fabricación. Las buenas prácticas deben ser aprobadas por la autoridad sanitaria competente. El certificado de conformidad BPM tiene una validez de seis meses a partir de la fecha de emisión, (Resolución 779 de 2006, Art. 15).
 
       .tarjeta.config-slyder-F.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-8.col-md-5
             img(src='@/assets/curso/temas/T2/img-10.svg' alt='AvatarTop')
         h2.text-center Registro Sanitario
         p.text-center Las panelas a las cuales durante el proceso de producción se les haya adicionado saborizantes, deben obtener el registro sanitario al tenor de lo dispuesto en el artículo 41 del Decreto 3075 de 1997 y las disposiciones que lo modifiquen, adicionen o sustituyan, (Resolución 779 de 2006, Art. 16).
 
       .tarjeta.config-slyder-F.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-8.col-md-5
             img(src='@/assets/curso/temas/T2/img-10.svg' alt='AvatarTop')
         h2.text-center Vigilancia y Control
         p.text-center La Administración Nacional de Alimentos y Medicamentos Invima, en coordinación con el Servicio Territorial de Salud, realiza las funciones de inspección, vigilancia y control previstas en la Ley 715 de 2001, por lo cual se pueden tomar medidas de seguridad y destinar las sanciones correspondientes.
 
       .tarjeta.config-slyder-F.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-8.col-md-5
             img(src='@/assets/curso/temas/T2/img-10.svg' alt='AvatarTop')
         h2.text-center Visitas de inspección
         p.text-center La autoridad sanitaria deberá realizar dos (2) inspecciones anuales a los ingenios azucareros para verificar las condiciones higiénicas especificadas en los reglamentos técnicos.
 
       .tarjeta.config-slyder-F.p-3
         .row.justify-content-center.mb-3
-          .col-8
+          .col-8.col-md-5
             img(src='@/assets/curso/temas/T2/img-10.svg' alt='AvatarTop')
         h2.text-center Certificado y evaluación de la conformidad
         p.text-center La evaluación de la conformidad debe ser realizada por la Administración Estatal de Alimentos y Medicamentos, el Invima y las unidades territoriales estructurales de salud con competencia técnica. El certificado de evaluación de la Conformidad podrá ser expedido por el Instituto Nacional de Atención de Medicamentos y Alimentos, Invima, o cuando sea del caso, por los organismos de certificación acreditados o reconocidos por dicha entidad.
@@ -197,7 +197,7 @@
     .tarjeta.tarjeta--slyder.p-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4.mb-3 <i>Disposiciones</i>
             ol.lista-ol--cuadro
               li
@@ -235,7 +235,7 @@
 
 
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4.mb-3 <i>Procedimiento para el uso adecuado de elementos de protección personal</i>
             p.mb-4 El uso correcto de protección personal responde a la seguridad de los empleados y la no contaminación de la panela.
             p.mb-4 Para evitar en lo posible la contaminación, el personal del trapiche debe cumplir con los siguientes requisitos: 
@@ -264,7 +264,7 @@
 
 
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4.mb-2 <i>Disposiciones para el uso de elementos de protección personal:</i>
             p.mb-4 <i><b>Cabeza</b></i>
             p.mb-1 Se recomienda una cubierta superior o cofia, si se expone a la humedad o bacterias.
@@ -297,7 +297,7 @@
               img(src='@/assets/curso/temas/T2/img-13.png', alt='Texto que describa la imagen')
 
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4.mb-3 <i>Ojos</i>
             p.mb-2 Se recomienda el uso de gafas de protección: en caso de exposición a salpicaduras de productos químicos o en presencia de gases, vapores y humos.
             ol.lista-ol--cuadro
@@ -327,7 +327,7 @@
 
 
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4.mb-3 <i>Sistema Respiratorio</i>
             p.mb-2 Se sugiere usar una máscara facial si se encuentra en un entorno con partículas en el aire, como polvo de algodón o cemento y otras partículas de piezas pulidas.
             ol.lista-ol--cuadro
@@ -361,7 +361,7 @@
 
         
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4.mb-3 <i>Oídos</i>
             p.mb-2 Se recomienda el uso de tapa oídos tipo Copa u Orejeras, los cuales atenúan el ruido 33 dB aproximadamente. Cubren la totalidad de la oreja. 
             ol.lista-ol--cuadro
@@ -397,7 +397,7 @@
               img(src='@/assets/curso/temas/T2/img-16.png', alt='Texto que describa la imagen')
 
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4.mb-3 <i>Manos </i>
             p.mb-2 Se recomienda el uso de guantes de carnaza.
             ol.lista-ol--cuadro
@@ -433,7 +433,7 @@
 
 
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4.mb-3 <i>Manos </i>
             p.mb-2 Guantes aislantes de altas temperaturas largas.
             ol.lista-ol--cuadro
@@ -471,7 +471,7 @@
 
 
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4.mb-3 <i>Píes </i>
             p.mb-2 Se recomienda el uso de botas de seguridad Impermeables: 
             ol.lista-ol--cuadro
@@ -518,7 +518,7 @@
 
 
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4.mb-3 <i>Cuerpo </i>
             p.mb-2 Se recomienda el uso del overol blanco o de colores claros con cierres o cremalleras. 
             ol.lista-ol--cuadro
@@ -568,7 +568,7 @@
     p.mb-5 A continuación, las normas sanitarias que se deben cumplir en la producción panelera:
 
     .row.justify-content-center.align-items-center(titulo="")
-      .col-md-8.mb-4.mb-md-0
+      .col-lg-8.mb-4.mb-md-0
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row.justify-content-around.align-items-center(titulo="Resolución 779 de 2006")
             .col-md-12.mb-4.mb-md-0
@@ -606,13 +606,13 @@
             .col-md-12.mb-4.mb-md-0
               p.mb-4 Procedimiento de registro para la instalación de centros de acopio de miel virgen de ingenios.
 
-      .col-md-4
+      .col-md-4.col-8.mb-4
         figure
           img(src='@/assets/curso/temas/T2/img-21.png', alt='Texto que describa la imagen')
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-8
+      .col-12.col-lg-8
         .cajon.color-acento-botones.p-4.mb-4.color-morado
           p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 

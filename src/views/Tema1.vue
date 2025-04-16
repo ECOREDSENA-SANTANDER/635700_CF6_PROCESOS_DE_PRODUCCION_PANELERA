@@ -57,11 +57,11 @@
 
 
     .row.justify-content-center.align-items-center(titulo="").mb-5
-      .col-md-5
+      .col-md-6.col-8.mb-3.col-lg-5
         figure
           img(src='@/assets/curso/temas/T1/img-5.png', alt='Texto que describa la imagen')
 
-      .col-md-7.mb-4.mb-md-0
+      .col-lg-7.mb-4.mb-md-0
         p.mb-4 El jugo extraído de la caña, por los molinos, es una solución compuesta por materiales de todos los tamaños, desde partículas gruesas como tierra, partículas de bagazo, ceras, hasta coloides y iones que pasan a un filtro decantador, para eliminación de materiales extraños e impurezas por los procesos unitarios de sedimentación y flotación. (Granja & Granja, 2013, p. 30-31)
 
         p.mb-3 El buen rendimiento de un filtro instalado se puede ver entre la entrada y la salida del jugo. 
@@ -168,7 +168,7 @@
 
 
     .row.justify-content-center.align-items-center(titulo="")
-      .col-md-8.mb-4.mb-md-0
+      .col-lg-8.mb-4.mb-md-0.col-md-12
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row.justify-content-around.align-items-center(titulo="Clarificación")
             .col-md-12.mb-4.mb-md-0
@@ -188,7 +188,7 @@
             .col-md-12.mb-4.mb-md-0
               p.mb-4 Líquidas o cachaza se retiran manualmente con un colador y se colocan en recipientes llamados cachaceras. En estas se separan los jugos que pueden ser liberados en la separación de la cachaza quedando en el fondo del contenedor, que regresará más tarde a la paila clarificadora. La torta de filtración resultante es un producto apto para su uso como fertilizante y alimento para cerdos.
 
-      .col-md-4
+      .col-lg-4.col-8.mb-4.col-md-6
         figure
           img(src='@/assets/curso/temas/T1/img-7.png', alt='Texto que describa la imagen')
 
@@ -204,11 +204,11 @@
 
     .row.justify-content-center.align-items-center(titulo="").mb-5
 
-      .col-md-4
+      .col-lg-4.col-8.mb-4.col-md-6
         figure
           img(src='@/assets/curso/temas/T1/img-8.png', alt='Texto que describa la imagen')
 
-      .col-md-8.mb-4.mb-md-0
+      .col-lg-8.mb-4.mb-md-0
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="El jugo clarificado")
             .col-md-12.mb-4.mb-md-0
@@ -244,7 +244,7 @@
                   span c
                 | El azúcar moreno es colado de un ingenio artesanal, pero como las dos últimas materias primas mencionadas contienen sólidos que se encuentran en estado coloidal, su eliminación es un trabajo en equipo en una sola operación de “clarificación por flotación, la capacidad de este equipo en acero inoxidable, que tiene doble fondo para el calentamiento controlado con vapores para 800 litros”, (Granja & Granja, 2013, p. 37).
         
-          .col-md-4
+          .col-md-4.col-9
             figure
               img(src='@/assets/curso/temas/T1/img-9.png', alt='Texto que describa la imagen')
 
@@ -306,7 +306,7 @@
 
     .tarjeta.tarjeta--slyder.p-4.mb-5
       LineaTiempoC.color-acento-botones(text-small)
-        .row.justify-content-around.align-items-center(titulo="paso 1")
+        .row.justify-content-around.align-items-center(titulo="Paso 1")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 El jarabe clarificado suele pasar a la siguiente etapa con un Brix de 60 ° a 65 °; cuanto más puro sea el material, más rápido se cristaliza al agitar y enfriar.
         
@@ -314,7 +314,7 @@
             figure
               img(src='@/assets/curso/temas/T1/img-15.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center(titulo="paso 2")
+        .row.justify-content-around.align-items-center(titulo="Paso 2")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 Este proceso constituye la etapa final del jarabe clarificado cuya temperatura registrada supera el punto de ebullición del agua.
         
@@ -322,7 +322,7 @@
             figure
               img(src='@/assets/curso/temas/T1/img-16.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center(titulo="paso 3")
+        .row.justify-content-around.align-items-center(titulo="Paso 3")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 Mientras continúa este proceso, es importante verificar la conversión de sacarosa, que depende de la temperatura, el pH y el tiempo de residencia en la paila concentradora, especialmente si la temperatura supera los 100 ºC, la inversión se acelera significativamente.
         
@@ -330,7 +330,7 @@
             figure
               img(src='@/assets/curso/temas/T1/img-17.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center(titulo="paso 4")
+        .row.justify-content-around.align-items-center(titulo="Paso 4")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 “La paila de concentración tiene una capacidad nominal de 220 Kilogramos / hora” (Granja & Granja, 2013, p. 43).
         
@@ -338,7 +338,7 @@
             figure
               img(src='@/assets/curso/temas/T1/img-18.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center(titulo="paso 5")
+        .row.justify-content-around.align-items-center(titulo="Paso 5")
           .col-md-8.mb-4.mb-md-0
             p.mb-5 El <b>“punto”</b> del jarabe clarificado para la obtención de la panela granulada en la planta piloto prototipo corresponde a una concentración de sólidos de 88 º a 94 ºBrix, la velocidad de respuesta durante este proceso debe ser alta, porque los cambios de las características del material en proceso ocurren rápidamente en su punto final y estas pueden caramelizar fácilmente, caso contrario se dificultará la cristalización, (Granja, 2013, p. 44).
         
@@ -357,11 +357,11 @@
 
 
     .row.justify-content-center.align-items-center(titulo="").mb-5
-      .col-md-5
+      .col-lg-5.col-8.mb-4.col-md-7
         figure
           img(src='@/assets/curso/temas/T1/img-20.png', alt='Texto que describa la imagen')
 
-      .col-md-7.mb-4.mb-md-0
+      .col-lg-7.mb-4.mb-md-0
         p.mb-4 Cuando se llega al punto de almíbar y se detiene el calentamiento, la textura y estructura cambia, pierde pegajosidad, se introduce aire seco en la miel, crecen cristales de azúcar, adquiere porosidad y, a medida que se enfría, el azúcar almibarado adquiere una forma amorfa, densa, característica de los sólidos.
         p.mb-4 Los tiempos de mezclado y enfriamiento dependen de la calidad de los materiales utilizados y toman un promedio de 10 a 15 minutos por lote. 
         p.mb-5 La operación se realiza de forma simultánea y consiste en un enfriamiento rápido del jarabe concentrado permitiendo que se cristalice por medio del batido, utilizando en este proceso una paila construida en acero inoxidable, una batidora y un soplador de aire forzado, permitiendo variar la velocidad del batido a flujo constante de aire, este depende de la viscosidad del material a cristalizar y por lo tanto, da seguridad industrial al operador, al no permitir saltar de revoluciones por minuto y que haga salir el aspa de batido de su lugar; tiene un control automático para su apagado.
@@ -379,7 +379,7 @@
 
 
     .row.justify-content-center.align-items-center(titulo="")
-      .col-md-8.mb-4.mb-md-0
+      .col-lg-8.mb-4.mb-md-0
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row.justify-content-around.align-items-center(titulo="El empaque")
             .col-md-12.mb-4.mb-md-0
@@ -403,7 +403,7 @@
             .col-md-12.mb-4.mb-md-0
               p.mb-4 Se lo hace siguiendo las fechas de fabricación, tamaños de los lotes y sobre todo los parámetros de humedad de equilibrio en la panela (Chep), entre un valor mínimo de 7% y un máximo del 10 %; con una temperatura ambiente de bodega entre 13 a 34 ºC y humedad relativa entre 70 a 78 %,(Granja, 2013, p. 49).
 
-      .col-md-4
+      .col-lg-4.col-8.mb-4.col-md-6
         figure
           img(src='@/assets/curso/temas/T1/img-21.png', alt='Texto que describa la imagen')
 
@@ -423,7 +423,7 @@
             h3 Constitución de la miel
             p.mb-5 La miel cruda está constituida principalmente por sacarosa, glucosa y fructosa, producto natural, moderadamente húmedo, denso y viscoso, producto intermedio en la elaboración del producto, especialmente cuando el jugo de caña concentrado y clarificado, que aún no ha sido extraído, contiene algún tipo de azúcar. Al someter esta miel a un tratamiento químico o biológico, se puede evitar su cristalización, dando como resultado la llamada miel “modificada”, que es hidrolizada o enriquecida con fructosa y glucosa; La cantidad de inversión dependerá del tipo de agente de inversión utilizado, así como de la temperatura y el tiempo que el agente de inversión permanece en contacto con la sacarosa. El agente de inversión más común y útil es el ácido, (Narváez, 2002).
 
-          .col-md-4
+          .col-md-4.col-8.mb-4
             figure
               img(src='@/assets/curso/temas/T1/img-22.png', alt='Texto que describa la imagen')
 
@@ -433,7 +433,7 @@
             h3 Calidad de la caña
             p.mb-5 Si se pretende producir miel se “recomienda utilizar cañas inmaduras o sobremaduras, con alto contenido de azúcares reductores, para disminuir su cristalización”. La miel de caña de buena calidad cumple con las siguientes características: buen suelo y su mejoramiento, diversidades de caña de azúcar adecuadas a la agroecología de cada región, fertilización adecuada, buena distribución de lluvia y/o riego durante todo el año, luz solar constante, proceso de transferencia de calor eficiente y excelentes condiciones sanitarias (Prada, 2002).
         
-          .col-md-4
+          .col-md-4.col-8.mb-4
             figure
               img(src='@/assets/curso/temas/T1/img-23.png', alt='Texto que describa la imagen')
  
@@ -444,7 +444,7 @@
             h3 Aportes nutricionales
             p.mb-5 Los nutricionistas sugieren la miel como suplemento dietético humano porque tiene un alto valor nutricional y valor energético, tiene un poder edulcorante más fuerte que la sacarosa y es un producto de azúcar natural que se absorbe fácilmente. Caries porque es rico en hierro, calcio, aminoácidos, calorías, vitamina B6 y otras vitaminas B, y está catalogado como la fuente natural más rica de ácido pantoténico estimulante del crecimiento; propanol; por lo tanto, la miel de caña de azúcar es una materia prima ideal para la industria alimenticia, (Narváez, 2002).
         
-          .col-md-4
+          .col-md-4.col-8.mb-4
             figure
               img(src='@/assets/curso/temas/T1/img-24.png', alt='Texto que describa la imagen')
 
