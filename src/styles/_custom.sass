@@ -25,7 +25,8 @@
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
   color: #12263F
-
+.barra-avance__boton--regresar span
+  color: #fff !important
 .nav-holder2
   display: inline-block
   margin: 10px 5px
@@ -45,7 +46,7 @@
 
 .nav-holder2:before
   position: absolute
-  top: 0
+  top: 82.7%;
   bottom: 0
   left: 0
   right: 0
@@ -57,6 +58,9 @@
   -moz-transition: all 0.45s ease
   -ms-transition: all 0.45s ease
   transition: all 0.45s ease
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  height: 50px
 
 
 .nav-holder2:before
@@ -72,13 +76,14 @@
   -webkit-transition-delay: 0.1s
   -moz-transition-delay: 0.1s
   transition-delay: 0.1s
-  border-top-left-radius: 14px
-  border-top-right-radius: 14px
+  border-radius: 14px !important
+  top: 0 !important
+  height: auto !important
 
 .nav-holder2
   .text
     position: absolute
-    top: 73%
+    top: 82.5%;
     bottom: 0px
     left: 0px
     right: 0px
@@ -101,7 +106,7 @@
 
 .nav-holder2:hover
   .text
-    top: 5%
+    top: 5% !important
   h4, p
     color: #12263F
     opacity: 1
@@ -135,7 +140,7 @@
   line-height: 1em
   color: #12263F !important
 
-.fnd-1
+.fnd-2
   background-color: #FBEDDF !important
 .img-100
   height: 100% !important
@@ -153,15 +158,22 @@
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #E2872C !important
+  border: 0 !important
 
 .slyder-a__bullets__item--active 
   background-color: #E2872C
   border-color: #E2872C
   opacity: 1
+  border: 0 !important
 
+.slyder-a__bullets__item
+  border: 0 !important
 .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
   background-color: #E2872C !important
-
+  border: 0 !important
+.linea-tiempo-c__content .horizontal-scroll,
+.slyder-a .horizontal-scroll
+    align-items: start !important
 .img-infografica-b__modal
   background-color: #FBEDDF !important
 
@@ -199,3 +211,57 @@
 
 .banner-interno__titulo__icono i 
   color: #12263F
+.m-cus
+  &-1
+    margin-left: 2rem !important;
+/**************************************************************/
+/*Media Queries*/  
+/**************************************************************/
+
+//// DESKTOP SMALL 1400--------------------------------------
+@media screen and (max-width: $bp-min-xxl)
+  .mb-cus
+    margin-bottom: 2em  !important  
+  .nav-holder2:before
+    top: 79.5% !important
+    height: 50px !important
+  .nav-holder2
+    .text
+      top: 76.5% !important
+  .nav-holder2:hover
+    .text
+      top: -7% !important
+
+//// TABLET 992--------------------------------------
+@media screen and (max-width: $bp-max-md)
+  .bloque-texto-g
+    padding-top: 5% !important;
+  .nav-holder2:before
+    top: 75% !important
+    height: 65px !important
+  .nav-holder2
+    .text
+      top: 68.5% !important
+  .nav-holder2:hover
+    .text
+      top: -10% !important
+  
+//// TABLET MINI 768--------------------------------------
+/* @ media screen and (max-width: $bp-min-md)*/
+  
+
+//// MOBILE 576--------------------------------------
+@media screen and (max-width: $bp-min-sm)
+  .slyder-a__bullets__item
+    width: 8px !important
+    height: 8px !important
+    margin: 0 3px !important
+  .nav-holder2:before
+    top: 76.2% !important
+    height: 60px !important
+  .nav-holder2
+    .text
+      top: 82.5% !important
+  .nav-holder2:hover
+    .text
+      top: 1% !important
