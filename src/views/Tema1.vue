@@ -70,7 +70,7 @@
 
 
 
-    p.mb-5 Ventajas de las operaciones de limpieza de jugo frío.
+    p.mb-5 Ventajas de las operaciones de limpieza de jugo frío
 
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
@@ -110,7 +110,7 @@
       .col-10.offset-1  
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
-          p.text-small <i>Datos promedios de pH jugo mixto y pH jugo mixto tomado a la salida de los molinos y jugo clarificado antes de ingresar a evaporación </i>
+          p.text-small <i>Datos promedios de pH jugo mixto y pH jugo mixto tomado a la salida de los molinos y jugo clarificado antes de ingresar a evaporación</i>
         .tabla-a.color-secundario.mb-5 
           table
             caption.mt-3 Nota. Tomada de Granja & Granja (2013).

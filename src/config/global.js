@@ -79,8 +79,8 @@ export default {
       },
       {
         icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA6_635700.pdf',
       },
       {
         icono: 'far fa-registered',
