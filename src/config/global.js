@@ -35,17 +35,44 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Cristalización y tipo de productos',
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Proceso de concentración de jugo de caña (cocinar jugo)',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Trasiego de mieles',
+            hash: 't_1_2',
+          },
+        ],
         desarrolloContenidos: true,
       },
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Procedimientos de ajuste',
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Cristalización',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Buenas prácticas de manufactura',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Normas sanitarias para la producción de panela',
+            hash: 't_2_3',
+          },
+        ],
         desarrolloContenidos: true,
       },
     ],
